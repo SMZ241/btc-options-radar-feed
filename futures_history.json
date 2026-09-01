@@ -32,5 +32,22 @@
     "ema72": 78421.52,
     "score": -11.92,
     "decision": "NO_FUTURES_TRADE"
+  },
+  {
+    "timestamp_utc": "2026-09-01T12:59:19.502836+00:00",
+    "mark_price": 78002.67,
+    "index_price": 77981.8,
+    "open_interest": 881011990.0,
+    "basis_bps": 2.6763,
+    "funding_8h_bps": 0.8483,
+    "taker_flow_ratio": -0.0815,
+    "liquidation_imbalance": 0.8609,
+    "return_8h_pct": -0.929,
+    "return_24h_pct": 0.083,
+    "return_72h_pct": 0.503,
+    "ema24": 78401.24,
+    "ema72": 78426.06,
+    "score": -7.36,
+    "decision": "NO_FUTURES_TRADE"
   }
 ]
