@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "timestamp_utc": "2026-09-03T22:00:21.462999+00:00",
+  "history_snapshots": 1,
+  "decision_counts": {
+    "NO_TRADE": 1
+  },
+  "horizons": {
+    "8h": {
+      "mature_directional_routes": 0,
+      "directional_proxy_hit_rate": null,
+      "avg_directional_proxy_return_pct": null,
+      "mature_no_trade_decisions": 0,
+      "no_trade_avg_abs_btc_move_pct": null
+    },
+    "24h": {
+      "mature_directional_routes": 0,
+      "directional_proxy_hit_rate": null,
+      "avg_directional_proxy_return_pct": null,
+      "mature_no_trade_decisions": 0,
+      "no_trade_avg_abs_btc_move_pct": null
+    },
+    "3d": {
+      "mature_directional_routes": 0,
+      "directional_proxy_hit_rate": null,
+      "avg_directional_proxy_return_pct": null,
+      "mature_no_trade_decisions": 0,
+      "no_trade_avg_abs_btc_move_pct": null
+    }
+  },
+  "pnl_scope": {
+    "futures_routes": "Directional proxy uses BTC-PERPETUAL mark return before fees/funding/slippage.",
+    "spot_routes": "Directional proxy uses BTC spot return before fees/slippage.",
+    "directional_options_routes": "Only underlying-direction proxy is tracked; this is NOT option strategy P/L.",
+    "relative_value_or_vol_routes": "No directional proxy is assigned because BTC direction alone cannot evaluate these strategies."
+  },
+  "note": "Exact options P/L requires frozen contract legs, entry quotes, exit quotes, fees and execution assumptions; this ledger does not fabricate those values."
+}

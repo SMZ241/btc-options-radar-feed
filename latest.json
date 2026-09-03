@@ -1,23 +1,23 @@
 {
   "radar_version": "2.1",
-  "timestamp_utc": "2026-09-03T21:55:53.721797+00:00",
-  "spot": 82293.2,
+  "timestamp_utc": "2026-09-03T22:00:12.000426+00:00",
+  "spot": 82138.45,
   "chain_instruments_analyzed": 884,
   "realized_volatility": {
-    "rv7": 35.57782257952525,
-    "rv14": 45.806988013240016,
-    "rv30": 38.61660814765238,
+    "rv7": 35.54260726265748,
+    "rv14": 45.79487463655831,
+    "rv30": 38.611805266742465,
     "bars": 841,
-    "last_perp_close": 81678.5
+    "last_perp_close": 81639.0
   },
   "direction": {
-    "score": 25.61,
-    "label": "BULLISH",
+    "score": 1.15,
+    "label": "NEUTRAL",
     "components": {
-      "skew_level": 73.95,
-      "skew_change": 23.76,
-      "options_taker_flow": -22.2,
-      "oi_change_mix": 27.43
+      "skew_level": 75.48,
+      "skew_change": 3.61,
+      "options_taker_flow": -71.3,
+      "oi_change_mix": -10.39
     },
     "spot_change_pct_since_previous": null,
     "note": "Pure options-implied directional bias. Spot momentum intentionally excluded. See options_outlook."
@@ -26,13 +26,13 @@
     "score": 30.0,
     "state": "WATCH",
     "front_atm_iv": 39.363,
-    "rv7": 35.578,
-    "rv14": 45.807,
-    "rv30": 38.617,
-    "recent_rv_blend": 39.158,
-    "front_iv_minus_rv7": 3.786,
-    "front_iv_minus_rv14": -6.444,
-    "front_iv_minus_recent_rv_blend": 0.205,
+    "rv7": 35.543,
+    "rv14": 45.795,
+    "rv30": 38.612,
+    "recent_rv_blend": 39.131,
+    "front_iv_minus_rv7": 3.821,
+    "front_iv_minus_rv14": -6.432,
+    "front_iv_minus_recent_rv_blend": 0.232,
     "volatility_state": "LONG_VOL_UNCONFIRMED_RV14_ONLY",
     "subscores": {
       "volatility": 0,
@@ -46,131 +46,68 @@
   },
   "term_structure": {
     "shape": "FLAT",
-    "slope_vol_points": 1.83,
+    "slope_vol_points": 2.1,
     "kinks": [
       {
         "expiry": "5SEP26",
-        "atm_iv": 44.77,
-        "interpolated_iv": 39.84,
-        "residual_vol_points": 4.93
+        "atm_iv": 44.74,
+        "interpolated_iv": 39.155,
+        "residual_vol_points": 5.585
       },
       {
         "expiry": "6SEP26",
-        "atm_iv": 39.39,
-        "interpolated_iv": 41.515,
-        "residual_vol_points": -2.125
+        "atm_iv": 38.3,
+        "interpolated_iv": 41.11,
+        "residual_vol_points": -2.81
       },
       {
         "expiry": "7SEP26",
-        "atm_iv": 38.26,
-        "interpolated_iv": 39.38,
-        "residual_vol_points": -1.12
+        "atm_iv": 37.48,
+        "interpolated_iv": 38.504,
+        "residual_vol_points": -1.024
       }
     ]
   },
   "trade_flow": {
     "available": true,
-    "trade_count": 55,
-    "total_amount_btc": 96.59999999999997,
+    "trade_count": 15,
+    "total_amount_btc": 4.1,
     "by_expiry": [
       {
-        "expiry": "4SEP26",
-        "trade_count": 4,
-        "call_taker_buy_btc": 0.0,
-        "call_taker_sell_btc": 4.9,
-        "put_taker_buy_btc": 3.1,
-        "put_taker_sell_btc": 6.9,
-        "directional_flow_net_btc": -1.1
-      },
-      {
-        "expiry": "5SEP26",
-        "trade_count": 5,
-        "call_taker_buy_btc": 1.0,
-        "call_taker_sell_btc": 4.0,
-        "put_taker_buy_btc": 0.0,
-        "put_taker_sell_btc": 3.0,
-        "directional_flow_net_btc": 0.0
-      },
-      {
-        "expiry": "6SEP26",
-        "trade_count": 5,
-        "call_taker_buy_btc": 1.0,
-        "call_taker_sell_btc": 3.0,
-        "put_taker_buy_btc": 5.0,
-        "put_taker_sell_btc": 0.1,
-        "directional_flow_net_btc": -6.9
-      },
-      {
-        "expiry": "7SEP26",
+        "expiry": "11SEP26",
         "trade_count": 2,
         "call_taker_buy_btc": 0.0,
-        "call_taker_sell_btc": 0.0,
-        "put_taker_buy_btc": 0.0,
-        "put_taker_sell_btc": 36.0,
-        "directional_flow_net_btc": 36.0
-      },
-      {
-        "expiry": "11SEP26",
-        "trade_count": 4,
-        "call_taker_buy_btc": 0.1,
-        "call_taker_sell_btc": 2.1,
+        "call_taker_sell_btc": 0.2,
         "put_taker_buy_btc": 0.0,
         "put_taker_sell_btc": 0.0,
-        "directional_flow_net_btc": -2.0
+        "directional_flow_net_btc": -0.2
       },
       {
         "expiry": "18SEP26",
-        "trade_count": 8,
-        "call_taker_buy_btc": 0.6000000000000001,
-        "call_taker_sell_btc": 1.5,
+        "trade_count": 3,
+        "call_taker_buy_btc": 0.0,
+        "call_taker_sell_btc": 0.8999999999999999,
         "put_taker_buy_btc": 0.1,
         "put_taker_sell_btc": 0.0,
         "directional_flow_net_btc": -0.9999999999999999
       },
       {
         "expiry": "25SEP26",
-        "trade_count": 13,
+        "trade_count": 6,
         "call_taker_buy_btc": 0.6,
-        "call_taker_sell_btc": 1.3000000000000003,
+        "call_taker_sell_btc": 0.7,
         "put_taker_buy_btc": 0.0,
-        "put_taker_sell_btc": 0.6,
-        "directional_flow_net_btc": -0.10000000000000031
+        "put_taker_sell_btc": 0.2,
+        "directional_flow_net_btc": 0.10000000000000003
       },
       {
         "expiry": "30OCT26",
-        "trade_count": 6,
-        "call_taker_buy_btc": 0.7,
-        "call_taker_sell_btc": 0.2,
-        "put_taker_buy_btc": 0.1,
-        "put_taker_sell_btc": 0.0,
-        "directional_flow_net_btc": 0.3999999999999999
-      },
-      {
-        "expiry": "27NOV26",
-        "trade_count": 2,
-        "call_taker_buy_btc": 0.1,
-        "call_taker_sell_btc": 0.0,
-        "put_taker_buy_btc": 0.0,
-        "put_taker_sell_btc": 0.3,
-        "directional_flow_net_btc": 0.4
-      },
-      {
-        "expiry": "25DEC26",
         "trade_count": 4,
-        "call_taker_buy_btc": 0.0,
-        "call_taker_sell_btc": 1.0,
-        "put_taker_buy_btc": 18.0,
-        "put_taker_sell_btc": 0.2,
-        "directional_flow_net_btc": -18.8
-      },
-      {
-        "expiry": "26MAR27",
-        "trade_count": 2,
-        "call_taker_buy_btc": 0.0,
-        "call_taker_sell_btc": 1.0,
+        "call_taker_buy_btc": 1.1,
+        "call_taker_sell_btc": 0.30000000000000004,
         "put_taker_buy_btc": 0.0,
-        "put_taker_sell_btc": 0.1,
-        "directional_flow_net_btc": -0.9
+        "put_taker_sell_btc": 0.0,
+        "directional_flow_net_btc": 0.8
       }
     ]
   },
@@ -179,254 +116,254 @@
     {
       "expiry": "4SEP26",
       "expiry_ts": 1788480000,
-      "dte": 0.086,
-      "atm_iv": 40.29,
+      "dte": 0.083,
+      "atm_iv": 40.01,
       "atm_instrument": "BTC-4SEP26-81500-C",
-      "skew_25d_put_minus_call": -12.190000000000005,
+      "skew_25d_put_minus_call": -12.280000000000001,
       "call25_instrument": "BTC-4SEP26-83000-C",
       "put25_instrument": "BTC-4SEP26-81000-P",
-      "call25_actual_delta": 0.1691,
-      "put25_actual_delta": -0.2291,
+      "call25_actual_delta": 0.1561,
+      "put25_actual_delta": -0.2704,
       "call_volume_24h": 4659.199999999999,
-      "put_volume_24h": 2289.7000000000003,
+      "put_volume_24h": 2299.7000000000003,
       "call_oi": 19024.4,
-      "put_oi": 11684.4,
+      "put_oi": 11690.8,
       "call_oi_change": 0.0,
-      "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 9.596928982725524,
-      "atm_iv_change": -0.3200000000000003,
-      "skew_25d_change": -5.1200000000000045
+      "put_oi_change": 6.399999999999977,
+      "median_bid_ask_spread_pct": 7.9646017699115115,
+      "atm_iv_change": -0.28000000000000114,
+      "skew_25d_change": -0.0899999999999963
     },
     {
       "expiry": "5SEP26",
       "expiry_ts": 1788566400,
-      "dte": 1.086,
-      "atm_iv": 44.77,
-      "atm_instrument": "BTC-5SEP26-81500-C",
-      "skew_25d_put_minus_call": -5.969999999999999,
+      "dte": 1.083,
+      "atm_iv": 44.74,
+      "atm_instrument": "BTC-5SEP26-81500-P",
+      "skew_25d_put_minus_call": -6.309999999999995,
       "call25_instrument": "BTC-5SEP26-83000-C",
-      "put25_instrument": "BTC-5SEP26-80500-P",
-      "call25_actual_delta": 0.3032,
-      "put25_actual_delta": -0.2919,
+      "put25_instrument": "BTC-5SEP26-80000-P",
+      "call25_actual_delta": 0.2937,
+      "put25_actual_delta": -0.2207,
       "call_volume_24h": 2082.8,
       "put_volume_24h": 657.8,
       "call_oi": 2242.1000000000004,
       "put_oi": 809.1,
-      "call_oi_change": 5.0,
-      "put_oi_change": 1.0999999999999943,
-      "median_bid_ask_spread_pct": 12.989203778677457,
-      "atm_iv_change": -0.02999999999999403,
-      "skew_25d_change": 0.28000000000000114
+      "call_oi_change": 0.0,
+      "put_oi_change": 0.0,
+      "median_bid_ask_spread_pct": 11.50160214010642,
+      "atm_iv_change": -0.030000000000001137,
+      "skew_25d_change": -0.3399999999999963
     },
     {
       "expiry": "6SEP26",
       "expiry_ts": 1788652800,
-      "dte": 2.086,
-      "atm_iv": 39.39,
-      "atm_instrument": "BTC-6SEP26-82000-P",
-      "skew_25d_put_minus_call": -5.809999999999995,
+      "dte": 2.083,
+      "atm_iv": 38.3,
+      "atm_instrument": "BTC-6SEP26-81500-C",
+      "skew_25d_put_minus_call": -5.960000000000001,
       "call25_instrument": "BTC-6SEP26-83500-C",
       "put25_instrument": "BTC-6SEP26-80000-P",
-      "call25_actual_delta": 0.2712,
-      "put25_actual_delta": -0.2267,
+      "call25_actual_delta": 0.2604,
+      "put25_actual_delta": -0.2441,
       "call_volume_24h": 321.0,
       "put_volume_24h": 191.10000000000002,
       "call_oi": 418.79999999999995,
       "put_oi": 216.10000000000002,
-      "call_oi_change": 4.0,
+      "call_oi_change": 0.0,
       "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 14.492753623188406,
-      "atm_iv_change": 0.9600000000000009,
-      "skew_25d_change": 0.0799999999999983
+      "median_bid_ask_spread_pct": 11.904761904761896,
+      "atm_iv_change": -1.0900000000000034,
+      "skew_25d_change": -0.15000000000000568
     },
     {
       "expiry": "7SEP26",
       "expiry_ts": 1788739200,
-      "dte": 3.086,
-      "atm_iv": 38.26,
-      "atm_instrument": "BTC-7SEP26-82000-C",
-      "skew_25d_put_minus_call": -5.6299999999999955,
+      "dte": 3.083,
+      "atm_iv": 37.48,
+      "atm_instrument": "BTC-7SEP26-81500-P",
+      "skew_25d_put_minus_call": -5.539999999999999,
       "call25_instrument": "BTC-7SEP26-84000-C",
       "put25_instrument": "BTC-7SEP26-80000-P",
-      "call25_actual_delta": 0.2514,
-      "put25_actual_delta": -0.2695,
+      "call25_actual_delta": 0.2448,
+      "put25_actual_delta": -0.2766,
       "call_volume_24h": 399.49999999999994,
       "put_volume_24h": 424.6,
       "call_oi": 314.79999999999995,
       "put_oi": 360.70000000000005,
       "call_oi_change": 0.0,
-      "put_oi_change": 36.0,
-      "median_bid_ask_spread_pct": 12.903762903762917,
-      "atm_iv_change": 0.7299999999999969,
-      "skew_25d_change": -0.1599999999999966
+      "put_oi_change": 0.0,
+      "median_bid_ask_spread_pct": 11.2100737100737,
+      "atm_iv_change": -0.7800000000000011,
+      "skew_25d_change": 0.0899999999999963
     },
     {
       "expiry": "11SEP26",
       "expiry_ts": 1789084800,
-      "dte": 7.086,
-      "atm_iv": 39.34,
+      "dte": 7.083,
+      "atm_iv": 39.32,
       "atm_instrument": "BTC-11SEP26-82000-C",
-      "skew_25d_put_minus_call": -4.359999999999999,
+      "skew_25d_put_minus_call": -4.529999999999994,
       "call25_instrument": "BTC-11SEP26-85000-C",
       "put25_instrument": "BTC-11SEP26-79000-P",
-      "call25_actual_delta": 0.2656,
-      "put25_actual_delta": -0.2565,
-      "call_volume_24h": 2456.0,
+      "call25_actual_delta": 0.2627,
+      "put25_actual_delta": -0.2612,
+      "call_volume_24h": 2456.2,
       "put_volume_24h": 970.1,
-      "call_oi": 8521.3,
+      "call_oi": 8521.5,
       "put_oi": 8241.400000000001,
-      "call_oi_change": -1.7999999999999545,
+      "call_oi_change": 0.1999999999999318,
       "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 6.962393383303171,
-      "atm_iv_change": -0.04999999999999716,
-      "skew_25d_change": -0.18999999999999773
+      "median_bid_ask_spread_pct": 6.761631475170075,
+      "atm_iv_change": -0.020000000000003126,
+      "skew_25d_change": -0.1699999999999946
     },
     {
       "expiry": "18SEP26",
       "expiry_ts": 1789689600,
-      "dte": 14.086,
+      "dte": 14.083,
       "atm_iv": 39.86,
-      "atm_instrument": "BTC-18SEP26-82000-P",
-      "skew_25d_put_minus_call": -2.979999999999997,
+      "atm_instrument": "BTC-18SEP26-82000-C",
+      "skew_25d_put_minus_call": -3.1499999999999986,
       "call25_instrument": "BTC-18SEP26-86000-C",
       "put25_instrument": "BTC-18SEP26-78000-P",
-      "call25_actual_delta": 0.2866,
-      "put25_actual_delta": -0.254,
-      "call_volume_24h": 1696.8000000000002,
-      "put_volume_24h": 362.20000000000005,
-      "call_oi": 4573.299999999999,
-      "put_oi": 2996.7,
-      "call_oi_change": 2.1000000000000227,
-      "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 5.1853743325090536,
-      "atm_iv_change": -0.00999999999999801,
-      "skew_25d_change": -0.21000000000000085
+      "call25_actual_delta": 0.2848,
+      "put25_actual_delta": -0.2612,
+      "call_volume_24h": 1697.7000000000003,
+      "put_volume_24h": 362.3,
+      "call_oi": 4574.2,
+      "put_oi": 2996.7999999999997,
+      "call_oi_change": 0.9000000000000057,
+      "put_oi_change": 0.09999999999990905,
+      "median_bid_ask_spread_pct": 5.152886545777455,
+      "atm_iv_change": 0.0,
+      "skew_25d_change": -0.1700000000000017
     },
     {
       "expiry": "25SEP26",
       "expiry_ts": 1790294400,
-      "dte": 21.086,
-      "atm_iv": 38.89,
+      "dte": 21.083,
+      "atm_iv": 38.91,
       "atm_instrument": "BTC-25SEP26-82000-C",
-      "skew_25d_put_minus_call": -3.470000000000006,
+      "skew_25d_put_minus_call": -3.519999999999996,
       "call25_instrument": "BTC-25SEP26-88000-C",
       "put25_instrument": "BTC-25SEP26-77000-P",
-      "call25_actual_delta": 0.2517,
-      "put25_actual_delta": -0.2423,
-      "call_volume_24h": 11768.1,
-      "put_volume_24h": 5018.6,
-      "call_oi": 105362.50000000001,
+      "call25_actual_delta": 0.2494,
+      "put25_actual_delta": -0.2447,
+      "call_volume_24h": 11769.5,
+      "put_volume_24h": 5018.7,
+      "call_oi": 105363.50000000001,
       "put_oi": 50700.09999999999,
-      "call_oi_change": 301.0,
-      "put_oi_change": -0.29999999999972715,
-      "median_bid_ask_spread_pct": 4.189715331262494,
-      "atm_iv_change": -0.00999999999999801,
-      "skew_25d_change": 0.06999999999999318
+      "call_oi_change": 0.9999999999997726,
+      "put_oi_change": 0.0,
+      "median_bid_ask_spread_pct": 3.8409955400360802,
+      "atm_iv_change": 0.01999999999999602,
+      "skew_25d_change": -0.04999999999999005
     },
     {
       "expiry": "30OCT26",
       "expiry_ts": 1793318400,
-      "dte": 56.086,
-      "atm_iv": 38.95,
+      "dte": 56.083,
+      "atm_iv": 38.94,
       "atm_instrument": "BTC-30OCT26-83000-P",
-      "skew_25d_put_minus_call": -0.9899999999999949,
+      "skew_25d_put_minus_call": -1.0100000000000051,
       "call25_instrument": "BTC-30OCT26-92000-C",
       "put25_instrument": "BTC-30OCT26-75000-P",
-      "call25_actual_delta": 0.2662,
-      "put25_actual_delta": -0.2527,
-      "call_volume_24h": 3382.4,
+      "call25_actual_delta": 0.2642,
+      "put25_actual_delta": -0.2543,
+      "call_volume_24h": 3383.8,
       "put_volume_24h": 1786.6999999999998,
-      "call_oi": 26291.600000000002,
+      "call_oi": 26292.000000000004,
       "put_oi": 13038.199999999999,
-      "call_oi_change": 0.10000000000026432,
+      "call_oi_change": 0.3999999999997286,
       "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 2.8466861153558676,
-      "atm_iv_change": -0.02999999999999403,
-      "skew_25d_change": -0.07000000000000028
+      "median_bid_ask_spread_pct": 2.8064814231407413,
+      "atm_iv_change": -0.010000000000005116,
+      "skew_25d_change": -0.020000000000010232
     },
     {
       "expiry": "27NOV26",
       "expiry_ts": 1795737600,
-      "dte": 84.086,
+      "dte": 84.083,
       "atm_iv": 40.01,
       "atm_instrument": "BTC-27NOV26-84000-P",
-      "skew_25d_put_minus_call": -0.7299999999999969,
+      "skew_25d_put_minus_call": -0.75,
       "call25_instrument": "BTC-27NOV26-96000-C",
       "put25_instrument": "BTC-27NOV26-74000-P",
-      "call25_actual_delta": 0.2558,
-      "put25_actual_delta": -0.2568,
+      "call25_actual_delta": 0.2546,
+      "put25_actual_delta": -0.2585,
       "call_volume_24h": 900.8999999999999,
       "put_volume_24h": 286.59999999999997,
       "call_oi": 2446.9,
       "put_oi": 1016.6,
-      "call_oi_change": 0.09999999999999787,
+      "call_oi_change": 0.0,
       "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 2.395377924656043,
-      "atm_iv_change": -0.020000000000003126,
-      "skew_25d_change": -0.3299999999999983
+      "median_bid_ask_spread_pct": 2.2924690496032216,
+      "atm_iv_change": 0.0,
+      "skew_25d_change": -0.020000000000003126
     },
     {
       "expiry": "25DEC26",
       "expiry_ts": 1798156800,
-      "dte": 112.086,
-      "atm_iv": 40.07,
+      "dte": 112.083,
+      "atm_iv": 40.08,
       "atm_instrument": "BTC-25DEC26-85000-P",
-      "skew_25d_put_minus_call": -0.0800000000000054,
+      "skew_25d_put_minus_call": -0.14000000000000057,
       "call25_instrument": "BTC-25DEC26-100000-C",
       "put25_instrument": "BTC-25DEC26-72000-P",
-      "call25_actual_delta": 0.2431,
-      "put25_actual_delta": -0.2332,
-      "call_volume_24h": 1219.7,
-      "put_volume_24h": 723.0,
+      "call25_actual_delta": 0.2409,
+      "put25_actual_delta": -0.2354,
+      "call_volume_24h": 1218.7,
+      "put_volume_24h": 722.0,
       "call_oi": 57105.1,
       "put_oi": 28323.399999999998,
       "call_oi_change": 0.0,
-      "put_oi_change": -17.799999999999955,
-      "median_bid_ask_spread_pct": 2.2654665275847514,
-      "atm_iv_change": -0.030000000000001137,
-      "skew_25d_change": -0.020000000000003126
+      "put_oi_change": 0.0,
+      "median_bid_ask_spread_pct": 2.157705187338085,
+      "atm_iv_change": 0.00999999999999801,
+      "skew_25d_change": -0.05999999999999517
     },
     {
       "expiry": "26MAR27",
       "expiry_ts": 1806019200,
-      "dte": 203.086,
-      "atm_iv": 41.1,
+      "dte": 203.083,
+      "atm_iv": 41.11,
       "atm_instrument": "BTC-26MAR27-88000-P",
-      "skew_25d_put_minus_call": -0.3299999999999983,
-      "call25_instrument": "BTC-26MAR27-110000-C",
+      "skew_25d_put_minus_call": -0.09000000000000341,
+      "call25_instrument": "BTC-26MAR27-108000-C",
       "put25_instrument": "BTC-26MAR27-72000-P",
-      "call25_actual_delta": 0.2417,
-      "put25_actual_delta": -0.2622,
+      "call25_actual_delta": 0.2575,
+      "put25_actual_delta": -0.2632,
       "call_volume_24h": 181.9,
       "put_volume_24h": 99.6,
       "call_oi": 13882.3,
       "put_oi": 8576.199999999999,
       "call_oi_change": 0.0,
       "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 2.3094992402175305,
-      "atm_iv_change": -0.00999999999999801,
-      "skew_25d_change": -0.4399999999999977
+      "median_bid_ask_spread_pct": 2.244804914335079,
+      "atm_iv_change": 0.00999999999999801,
+      "skew_25d_change": 0.23999999999999488
     },
     {
       "expiry": "25JUN27",
       "expiry_ts": 1813881600,
-      "dte": 294.086,
-      "atm_iv": 42.12,
-      "atm_instrument": "BTC-25JUN27-92000-P",
-      "skew_25d_put_minus_call": -0.27999999999999403,
+      "dte": 294.083,
+      "atm_iv": 42.11,
+      "atm_instrument": "BTC-25JUN27-90000-C",
+      "skew_25d_put_minus_call": -0.28999999999999915,
       "call25_instrument": "BTC-25JUN27-120000-C",
       "put25_instrument": "BTC-25JUN27-70000-P",
-      "call25_actual_delta": 0.2453,
-      "put25_actual_delta": -0.247,
+      "call25_actual_delta": 0.2439,
+      "put25_actual_delta": -0.2475,
       "call_volume_24h": 235.6,
       "put_volume_24h": 62.900000000000006,
       "call_oi": 4723.4,
       "put_oi": 1512.5,
       "call_oi_change": 0.0,
       "put_oi_change": 0.0,
-      "median_bid_ask_spread_pct": 2.054006043047221,
-      "atm_iv_change": 0.0,
-      "skew_25d_change": 0.020000000000003126
+      "median_bid_ask_spread_pct": 1.8815856678496223,
+      "atm_iv_change": -0.00999999999999801,
+      "skew_25d_change": -0.010000000000005116
     }
   ],
   "final_state": "WATCH",
@@ -443,11 +380,11 @@
   "edge_momentum": {
     "version": "1.0",
     "primary_edge": "NO_CLEAR_EDGE",
-    "score": 12.71,
+    "score": 12.81,
     "status": "STABLE",
     "score_meaning": "positive=strengthening non-directional Edge; negative=weakening",
     "reference_component_window": "24h",
-    "history_snapshots_available": 24,
+    "history_snapshots_available": 25,
     "components": {
       "volatility": "WEAKENING",
       "skew": "STRENGTHENING",
@@ -457,61 +394,61 @@
       "smile_relative_value": "STABLE"
     },
     "current": {
-      "vol_edge_signed": -0.205,
+      "vol_edge_signed": -0.232,
       "edge_score": 30.0,
-      "skew_abs_mean": 3.603333333333334,
-      "term_kink_strength": 4.93,
-      "flow_ratio": 0.06211180124223596,
-      "median_spread_pct": 5.1853743325090536,
+      "skew_abs_mean": 3.7333333333333294,
+      "term_kink_strength": 5.585,
+      "flow_ratio": -0.07317073170731704,
+      "median_spread_pct": 5.152886545777455,
       "smile_best_quality": 0.0
     },
     "windows": {
       "8h": {
         "available": true,
-        "comparison_timestamp_utc": "2026-09-03T20:31:42.505212+00:00",
-        "spot_change_pct": 0.214,
-        "front_atm_iv_change": -0.5840000000000032,
-        "rv7_change": 0.060101026157362014,
-        "iv_minus_rv_blend_change": -0.631,
-        "vol_edge_signed_change": 0.631,
+        "comparison_timestamp_utc": "2026-09-03T21:46:34.172624+00:00",
+        "spot_change_pct": 0.126,
+        "front_atm_iv_change": -0.02400000000000091,
+        "rv7_change": -0.0007110899277478211,
+        "iv_minus_rv_blend_change": -0.022999999999999993,
+        "vol_edge_signed_change": 0.022999999999999993,
         "edge_score_change": 0.0,
-        "skew_abs_mean_change": -0.30666666666666753,
-        "term_slope_change": 1.86,
-        "term_kink_strength_change": -0.2600000000000007,
-        "flow_ratio_change": -0.03714931986023194,
-        "median_spread_pct_change": -0.00895656674955081,
+        "skew_abs_mean_change": 0.2399999999999971,
+        "term_slope_change": 0.5900000000000001,
+        "term_kink_strength_change": 0.3049999999999997,
+        "flow_ratio_change": 0.15108864782008463,
+        "median_spread_pct_change": -0.010762314250027494,
         "smile_best_quality_change": 0.0
       },
       "24h": {
         "available": true,
-        "comparison_timestamp_utc": "2026-09-03T08:34:09.137251+00:00",
-        "spot_change_pct": 4.944,
-        "front_atm_iv_change": 7.305999999999997,
-        "rv7_change": 5.020108494996467,
-        "iv_minus_rv_blend_change": 3.4450000000000003,
-        "vol_edge_signed_change": -3.4450000000000003,
-        "edge_score_change": 0.8599999999999994,
-        "skew_abs_mean_change": 3.1599999999999975,
-        "term_slope_change": -10.62,
-        "term_kink_strength_change": 2.255,
-        "flow_ratio_change": 0.1774245136827526,
-        "median_spread_pct_change": -0.4714107742394402,
+        "comparison_timestamp_utc": "2026-09-03T12:38:41.036564+00:00",
+        "spot_change_pct": 4.235,
+        "front_atm_iv_change": 5.805999999999997,
+        "rv7_change": 4.932142682837288,
+        "iv_minus_rv_blend_change": 2.032,
+        "vol_edge_signed_change": -2.032,
+        "edge_score_change": 0.0,
+        "skew_abs_mean_change": 2.393333333333326,
+        "term_slope_change": -4.4399999999999995,
+        "term_kink_strength_change": 3.35,
+        "flow_ratio_change": -0.4442110091522298,
+        "median_spread_pct_change": -0.04195369601874965,
         "smile_best_quality_change": 0.0
       },
       "3d": {
         "available": true,
-        "comparison_timestamp_utc": "2026-09-01T12:59:11.674117+00:00",
-        "spot_change_pct": 4.743,
-        "front_atm_iv_change": 4.6030000000000015,
-        "rv7_change": 2.99117854786072,
-        "iv_minus_rv_blend_change": 4.323,
-        "vol_edge_signed_change": -4.323,
-        "edge_score_change": 14.18,
-        "skew_abs_mean_change": 3.239999999999997,
-        "term_slope_change": -7.23,
-        "term_kink_strength_change": 3.643,
-        "flow_ratio_change": -0.007278958927099524,
-        "median_spread_pct_change": -0.1675050486388754,
+        "comparison_timestamp_utc": "2026-09-01T16:45:34.780469+00:00",
+        "spot_change_pct": 5.367,
+        "front_atm_iv_change": 4.6229999999999976,
+        "rv7_change": 3.471973808657161,
+        "iv_minus_rv_blend_change": 4.037,
+        "vol_edge_signed_change": -4.037,
+        "edge_score_change": 15.37,
+        "skew_abs_mean_change": 3.4933333333333296,
+        "term_slope_change": -8.93,
+        "term_kink_strength_change": 4.445,
+        "flow_ratio_change": -0.16791494142989277,
+        "median_spread_pct_change": -0.19166050596951134,
         "smile_best_quality_change": 0.0
       },
       "7d": {
@@ -530,33 +467,33 @@
     ]
   },
   "legacy_direction": {
-    "score": 11.85,
+    "score": -4.87,
     "label": "NEUTRAL",
     "components": {
-      "spot_momentum": 2.52,
+      "spot_momentum": -1.5,
       "skew_level": 18.0,
-      "skew_change": 4.15,
-      "taker_flow": -3.61,
-      "oi_mix_low_weight": 2.13
+      "skew_change": 0.86,
+      "taker_flow": -13.42,
+      "oi_mix_low_weight": -10.0
     },
-    "spot_change_pct_since_previous": 0.315,
+    "spot_change_pct_since_previous": -0.188,
     "note": "Heuristic directional bias, not a probability forecast."
   },
   "options_outlook": {
     "version": "1.0",
-    "timestamp_utc": "2026-09-03T21:55:53.991246+00:00",
+    "timestamp_utc": "2026-09-03T22:00:12.342660+00:00",
     "engine": "OPTIONS_ONLY",
-    "label": "BULLISH",
-    "direction": "BULLISH",
-    "strength": "MODERATE",
-    "score": 25.61,
-    "confidence": 45.4,
-    "signal_agreement": 0.75,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "strength": "LOW",
+    "score": 1.15,
+    "confidence": 23.2,
+    "signal_agreement": 0.5,
     "components": {
-      "skew_level": 73.95,
-      "skew_change": 23.76,
-      "options_taker_flow": -22.2,
-      "oi_change_mix": 27.43
+      "skew_level": 75.48,
+      "skew_change": 3.61,
+      "options_taker_flow": -71.3,
+      "oi_change_mix": -10.39
     },
     "weights": {
       "skew_level": 0.35,
@@ -568,52 +505,43 @@
       "3d": {
         "target_days": 3,
         "expiry": "7SEP26",
-        "actual_dte": 3.086,
-        "atm_iv": 38.26,
-        "implied_move_1sigma_pct": 3.518,
-        "implied_move_1sigma_usd": 2895.08,
-        "implied_range_low": 79398.12,
-        "implied_range_high": 85188.28,
+        "actual_dte": 3.083,
+        "atm_iv": 37.48,
+        "implied_move_1sigma_pct": 3.445,
+        "implied_move_1sigma_usd": 2829.35,
+        "implied_range_low": 79309.1,
+        "implied_range_high": 84967.8,
         "note": "One-standard-deviation IV-implied magnitude, not a directional price target."
       },
       "7d": {
         "target_days": 7,
         "expiry": "11SEP26",
-        "actual_dte": 7.086,
-        "atm_iv": 39.34,
-        "implied_move_1sigma_pct": 5.481,
-        "implied_move_1sigma_usd": 4510.79,
-        "implied_range_low": 77782.41,
-        "implied_range_high": 86803.99,
+        "actual_dte": 7.083,
+        "atm_iv": 39.32,
+        "implied_move_1sigma_pct": 5.477,
+        "implied_move_1sigma_usd": 4499.06,
+        "implied_range_low": 77639.39,
+        "implied_range_high": 86637.51,
         "note": "One-standard-deviation IV-implied magnitude, not a directional price target."
       },
       "30d": {
         "target_days": 30,
         "expiry": "25SEP26",
-        "actual_dte": 21.086,
-        "atm_iv": 38.89,
-        "implied_move_1sigma_pct": 9.347,
-        "implied_move_1sigma_usd": 7692.24,
-        "implied_range_low": 74600.96,
-        "implied_range_high": 89985.44,
+        "actual_dte": 21.083,
+        "atm_iv": 38.91,
+        "implied_move_1sigma_pct": 9.351,
+        "implied_move_1sigma_usd": 7681.17,
+        "implied_range_low": 74457.28,
+        "implied_range_high": 89819.62,
         "note": "One-standard-deviation IV-implied magnitude, not a directional price target."
       }
     },
     "valuation": {
-      "weighted_25d_put_minus_call_skew": -6.943,
+      "weighted_25d_put_minus_call_skew": -7.086,
       "relative_richness": "CALLS_RICH",
-      "front_iv_minus_rv_blend": 0.205,
+      "front_iv_minus_rv_blend": 0.232,
       "vol_valuation": "FAIR_VOL",
-      "directional_option_liquidity": {
-        "side": "CALL",
-        "expiry": "25SEP26",
-        "dte": 21.086,
-        "median_bid_ask_spread_pct": 4.19,
-        "open_interest": 105362.5,
-        "volume_24h": 11768.1,
-        "quality": 0.738,
-        "executable": true
-      }
+      "directional_option_liquidity": null
     },
     "methodology_notes": [
       "This engine intentionally excludes BTC spot momentum and futures data.",
@@ -624,16 +552,25 @@
     ],
     "windows": {
       "8h": {
-        "available": false,
-        "required_prior_snapshots": 2
+        "available": true,
+        "comparison_timestamp_utc": "2026-09-03T21:55:53.721797+00:00",
+        "score_change": -24.46,
+        "confidence_change": -22.2,
+        "expected_move_7d_pct_change": -0.004
       },
       "24h": {
-        "available": false,
-        "required_prior_snapshots": 6
+        "available": true,
+        "comparison_timestamp_utc": "2026-09-03T18:17:41.366770+00:00",
+        "score_change": -24.66,
+        "confidence_change": -16.1,
+        "expected_move_7d_pct_change": 0.186
       },
       "3d": {
-        "available": false,
-        "required_prior_snapshots": 18
+        "available": true,
+        "comparison_timestamp_utc": "2026-09-02T00:39:40.711012+00:00",
+        "score_change": 31.22,
+        "confidence_change": -31.3,
+        "expected_move_7d_pct_change": 0.217
       },
       "7d": {
         "available": false,
@@ -647,83 +584,82 @@
   },
   "futures_gate": {
     "version": "1.1",
-    "timestamp_utc": "2026-09-03T21:56:02.071392+00:00",
+    "timestamp_utc": "2026-09-03T22:00:21.209012+00:00",
     "instrument": "BTC-PERPETUAL",
     "decision": "NO_FUTURES_TRADE",
     "state": "NO_EDGE",
     "gate_passed": false,
-    "score": 20.71,
-    "confidence": 23.7,
+    "score": 13.81,
+    "confidence": 12.8,
     "score_convention": "+100 strongly bullish, -100 strongly bearish; execution requires |score| >= 60 plus hard gates.",
     "market": {
       "instrument": "BTC-PERPETUAL",
-      "timestamp": 1788472554330,
-      "mark_price": 81680.62,
-      "index_price": 81662.26,
-      "last_price": 81681.5,
-      "best_bid": 81681.5,
-      "best_ask": 81682.0,
-      "open_interest": 953132640.0,
-      "volume_24h_usd": 667489370.0,
-      "price_change_24h_pct": 5.6458,
-      "basis_bps": 2.2483,
+      "timestamp": 1788472812612,
+      "mark_price": 81633.15,
+      "index_price": 81617.46,
+      "last_price": 81639.0,
+      "best_bid": 81639.0,
+      "best_ask": 81639.5,
+      "open_interest": 952805830.0,
+      "volume_24h_usd": 668017860.0,
+      "price_change_24h_pct": 5.6569,
+      "basis_bps": 1.9224,
       "bid_ask_spread_bps": 0.0612
     },
     "trend": {
-      "last_close": 81681.5,
-      "return_8h_pct": 3.623,
-      "return_24h_pct": 5.712,
-      "return_72h_pct": 3.442,
-      "ema24": 79489.82,
-      "ema72": 78464.97,
-      "price_vs_ema24_pct": 2.757,
-      "ema24_vs_ema72_pct": 1.306,
+      "last_close": 81639.0,
+      "return_8h_pct": 1.283,
+      "return_24h_pct": 5.997,
+      "return_72h_pct": 3.871,
+      "ema24": 79656.6,
+      "ema72": 78547.27,
+      "price_vs_ema24_pct": 2.489,
+      "ema24_vs_ema72_pct": 1.412,
       "recent_high_24h": 82368.5,
       "recent_low_24h": 76947.5,
       "bars": 193
     },
     "funding": {
-      "funding_8h": 0.00014817,
-      "funding_8h_bps": 1.4817,
-      "funding_72h_mean_bps": 0.5339,
-      "funding_72h_stdev_bps": 0.4274,
-      "funding_zscore": 2.218,
+      "funding_8h": 0.00014807,
+      "funding_8h_bps": 1.4807,
+      "funding_72h_mean_bps": 0.541,
+      "funding_72h_stdev_bps": 0.4389,
+      "funding_zscore": 2.141,
       "samples": 72
     },
     "flow": {
       "trade_count": 30000,
-      "taker_buy_usd": 110256900.0,
-      "taker_sell_usd": 104956470.0,
-      "taker_net_usd": 5300430.0,
-      "taker_flow_ratio": 0.0246,
+      "taker_buy_usd": 111083660.0,
+      "taker_sell_usd": 105442350.0,
+      "taker_net_usd": 5641310.0,
+      "taker_flow_ratio": 0.0261,
       "long_liquidations_usd": 0.0,
       "short_liquidations_usd": 40900.0,
       "liquidation_share_of_flow": 0.0002,
       "liquidation_imbalance": 1.0
     },
     "open_interest": {
-      "change_pct_since_previous_snapshot": 0.299,
-      "price_change_pct_since_previous_snapshot": 0.177,
+      "change_pct_since_previous_snapshot": -0.217,
+      "price_change_pct_since_previous_snapshot": 0.196,
       "note": "OI is directional only when paired with price; falling OI receives reduced weight."
     },
     "options_confirmation": {
-      "direction_score": 25.61,
-      "direction_label": "BULLISH",
+      "direction_score": 1.15,
+      "direction_label": "NEUTRAL",
       "options_edge_state": "WATCH",
-      "edge_momentum_score": 12.71
+      "edge_momentum_score": 12.81
     },
     "components": {
-      "trend": 24.05,
-      "taker_flow": 1.23,
-      "oi_impulse": 0.95,
+      "trend": 19.9,
+      "taker_flow": 1.31,
+      "oi_impulse": 0.41,
       "funding_crowding": -6.96,
-      "basis_crowding": -1.12,
+      "basis_crowding": -0.96,
       "liquidations": 0.0,
-      "options_confirmation": 2.56
+      "options_confirmation": 0.11
     },
     "confirmations": [
-      "trend",
-      "options_confirmation"
+      "trend"
     ],
     "oppositions": [
       "funding_crowding"
@@ -734,7 +670,7 @@
     ],
     "risk": {
       "realized_volatility_regime": "NORMAL",
-      "rv7": 35.57782257952525,
+      "rv7": 35.54260726265748,
       "leverage_cap_x": 1.0,
       "invalidation_rule": "NONE_NO_POSITION",
       "invalidation_reference_price": null,
@@ -743,30 +679,30 @@
     "windows": {
       "8h": {
         "available": true,
-        "comparison_timestamp_utc": "2026-09-03T20:31:47.725168+00:00",
-        "mark_price_change_pct": 0.177,
-        "open_interest_change_pct": 0.299,
-        "funding_8h_bps_change": 0.1358,
-        "taker_flow_ratio_change": 0.0128,
-        "score_change": -5.17
+        "comparison_timestamp_utc": "2026-09-03T21:46:39.567664+00:00",
+        "mark_price_change_pct": 0.196,
+        "open_interest_change_pct": -0.217,
+        "funding_8h_bps_change": 0.001,
+        "taker_flow_ratio_change": 0.0005,
+        "score_change": -9.39
       },
       "24h": {
         "available": true,
-        "comparison_timestamp_utc": "2026-09-03T08:34:15.360445+00:00",
-        "mark_price_change_pct": 4.813,
-        "open_interest_change_pct": 10.035,
-        "funding_8h_bps_change": 1.4712,
-        "taker_flow_ratio_change": -0.1828,
-        "score_change": -1.54
+        "comparison_timestamp_utc": "2026-09-03T12:38:46.377805+00:00",
+        "mark_price_change_pct": 4.144,
+        "open_interest_change_pct": 9.854,
+        "funding_8h_bps_change": 1.4585,
+        "taker_flow_ratio_change": -0.0484,
+        "score_change": -3.3
       },
       "3d": {
         "available": true,
-        "comparison_timestamp_utc": "2026-09-01T12:59:19.502836+00:00",
-        "mark_price_change_pct": 4.715,
-        "open_interest_change_pct": 8.186,
-        "funding_8h_bps_change": 0.6334,
-        "taker_flow_ratio_change": 0.1061,
-        "score_change": 28.07
+        "comparison_timestamp_utc": "2026-09-01T16:45:44.168033+00:00",
+        "mark_price_change_pct": 5.394,
+        "open_interest_change_pct": 9.936,
+        "funding_8h_bps_change": 1.101,
+        "taker_flow_ratio_change": 0.0363,
+        "score_change": 23.62
       },
       "7d": {
         "available": false,
@@ -787,51 +723,39 @@
   },
   "instrument_router": {
     "version": "1.0",
-    "timestamp_utc": "2026-09-03T21:56:02.139471+00:00",
+    "timestamp_utc": "2026-09-03T22:00:21.276937+00:00",
     "decision": "NO_TRADE",
     "instrument": null,
     "strategy": null,
     "executable": false,
-    "rationale": [
-      "Options outlook is bullish, but calls/volatility are relatively expensive."
-    ],
+    "rationale": [],
     "blockers": [
-      "OPTIONS_TOO_RICH_FOR_DIRECTIONAL_BUY",
-      "FUTURES_GATE_NOT_PASSED"
+      "NO_EXECUTABLE_CROSS_INSTRUMENT_EDGE"
     ],
     "inputs": {
-      "options_outlook_label": "BULLISH",
-      "options_outlook_score": 25.61,
-      "options_outlook_confidence": 45.4,
+      "options_outlook_label": "NEUTRAL",
+      "options_outlook_score": 1.15,
+      "options_outlook_confidence": 23.2,
       "relative_richness": "CALLS_RICH",
       "vol_valuation": "FAIR_VOL",
-      "directional_option_liquidity": {
-        "side": "CALL",
-        "expiry": "25SEP26",
-        "dte": 21.086,
-        "median_bid_ask_spread_pct": 4.19,
-        "open_interest": 105362.5,
-        "volume_24h": 11768.1,
-        "quality": 0.738,
-        "executable": true
-      },
+      "directional_option_liquidity": null,
       "neutral_option_liquidity": {
         "expiry": "25SEP26",
-        "dte": 21.086,
-        "median_bid_ask_spread_pct": 4.19,
-        "call_oi": 105362.5,
+        "dte": 21.083,
+        "median_bid_ask_spread_pct": 3.841,
+        "call_oi": 105363.5,
         "put_oi": 50700.1,
-        "call_volume_24h": 11768.1,
-        "put_volume_24h": 5018.6,
+        "call_volume_24h": 11769.5,
+        "put_volume_24h": 5018.7,
         "executable": true,
-        "quality": 0.476
+        "quality": 0.52
       },
       "options_edge_state": "WATCH",
       "volatility_state": "LONG_VOL_UNCONFIRMED_RV14_ONLY",
       "futures_gate_decision": "NO_FUTURES_TRADE",
       "futures_gate_state": "NO_EDGE",
       "futures_gate_passed": false,
-      "futures_gate_score": 20.71,
+      "futures_gate_score": 13.81,
       "risk_regime": "NORMAL"
     },
     "hard_rules": [
@@ -842,15 +766,53 @@
       "Bearish views have no unlevered spot-short fallback in this router."
     ]
   },
+  "router_performance": {
+    "version": "1.0",
+    "timestamp_utc": "2026-09-03T22:00:21.462999+00:00",
+    "history_snapshots": 1,
+    "decision_counts": {
+      "NO_TRADE": 1
+    },
+    "horizons": {
+      "8h": {
+        "mature_directional_routes": 0,
+        "directional_proxy_hit_rate": null,
+        "avg_directional_proxy_return_pct": null,
+        "mature_no_trade_decisions": 0,
+        "no_trade_avg_abs_btc_move_pct": null
+      },
+      "24h": {
+        "mature_directional_routes": 0,
+        "directional_proxy_hit_rate": null,
+        "avg_directional_proxy_return_pct": null,
+        "mature_no_trade_decisions": 0,
+        "no_trade_avg_abs_btc_move_pct": null
+      },
+      "3d": {
+        "mature_directional_routes": 0,
+        "directional_proxy_hit_rate": null,
+        "avg_directional_proxy_return_pct": null,
+        "mature_no_trade_decisions": 0,
+        "no_trade_avg_abs_btc_move_pct": null
+      }
+    },
+    "pnl_scope": {
+      "futures_routes": "Directional proxy uses BTC-PERPETUAL mark return before fees/funding/slippage.",
+      "spot_routes": "Directional proxy uses BTC spot return before fees/slippage.",
+      "directional_options_routes": "Only underlying-direction proxy is tracked; this is NOT option strategy P/L.",
+      "relative_value_or_vol_routes": "No directional proxy is assigned because BTC direction alone cannot evaluate these strategies."
+    },
+    "note": "Exact options P/L requires frozen contract legs, entry quotes, exit quotes, fees and execution assumptions; this ledger does not fabricate those values."
+  },
   "model_calibration": {
     "version": "1.0",
-    "timestamp_utc": "2026-09-03T21:56:02.244670+00:00",
+    "timestamp_utc": "2026-09-03T22:00:21.575372+00:00",
     "status": "DATA_COLLECTION",
     "auto_apply": false,
     "promotion_allowed": false,
     "primary_horizon": "24h",
-    "archive_samples": 25,
-    "outlook_history_snapshots_after_bootstrap": 27,
+    "archive_samples": 26,
+    "outlook_history_snapshots_after_bootstrap": 29,
     "baseline_weights": {
       "skew_level": 0.35,
       "skew_change": 0.2,
@@ -864,9 +826,9 @@
       "active_signals": 1,
       "hit_rate": 1.0,
       "avg_signed_forward_return_pct": 1.0315,
-      "score_return_correlation": -0.0615,
+      "score_return_correlation": -0.0578,
       "signal_coverage": 0.0769,
-      "objective": 0.063401
+      "objective": 0.063431
     },
     "horizons": {
       "8h": {
@@ -875,10 +837,10 @@
           "material_outcomes": 18,
           "active_signals": 3,
           "hit_rate": 1.0,
-          "avg_signed_forward_return_pct": 0.9801,
-          "score_return_correlation": 0.3327,
+          "avg_signed_forward_return_pct": 0.9167,
+          "score_return_correlation": 0.3203,
           "signal_coverage": 0.1667,
-          "objective": 0.21207
+          "objective": 0.21044
         },
         "score_buckets": [
           {
@@ -902,7 +864,7 @@
           {
             "bucket": "BULLISH",
             "samples": 2,
-            "avg_forward_return_pct": 1.1554,
+            "avg_forward_return_pct": 1.0603,
             "positive_return_rate": 1.0
           },
           {
@@ -920,9 +882,9 @@
           "active_signals": 1,
           "hit_rate": 1.0,
           "avg_signed_forward_return_pct": 1.0315,
-          "score_return_correlation": -0.0615,
+          "score_return_correlation": -0.0578,
           "signal_coverage": 0.0769,
-          "objective": 0.063401
+          "objective": 0.063431
         },
         "score_buckets": [
           {
@@ -940,7 +902,7 @@
           {
             "bucket": "NEUTRAL",
             "samples": 15,
-            "avg_forward_return_pct": 0.7537,
+            "avg_forward_return_pct": 0.7404,
             "positive_return_rate": 0.4667
           },
           {
@@ -963,7 +925,7 @@
           "material_outcomes": 5,
           "active_signals": 1,
           "hit_rate": 0.0,
-          "avg_signed_forward_return_pct": -4.9007,
+          "avg_signed_forward_return_pct": -4.7034,
           "score_return_correlation": -0.541,
           "signal_coverage": 0.2,
           "objective": 0.007158
@@ -978,13 +940,13 @@
           {
             "bucket": "BEARISH",
             "samples": 1,
-            "avg_forward_return_pct": 4.9007,
+            "avg_forward_return_pct": 4.7034,
             "positive_return_rate": 1.0
           },
           {
             "bucket": "NEUTRAL",
             "samples": 4,
-            "avg_forward_return_pct": 4.2488,
+            "avg_forward_return_pct": 4.0527,
             "positive_return_rate": 1.0
           },
           {
@@ -1090,25 +1052,7 @@
         ]
       }
     },
-    "exploratory_candidate": {
-      "weights": {
-        "skew_level": 0.1,
-        "skew_change": 0.2,
-        "options_taker_flow": 0.5,
-        "oi_change_mix": 0.2
-      },
-      "moderate_threshold": 20,
-      "metrics": {
-        "labeled_samples": 17,
-        "material_outcomes": 13,
-        "active_signals": 7,
-        "hit_rate": 0.5714,
-        "avg_signed_forward_return_pct": -0.0545,
-        "score_return_correlation": 0.0178,
-        "signal_coverage": 0.5385,
-        "objective": 0.341118
-      }
-    },
+    "exploratory_candidate": null,
     "walk_forward": {
       "train_candidate": null,
       "test_evaluation": null,
@@ -1130,6 +1074,39 @@
       "Small returns below each horizon noise floor are excluded from directional hit-rate scoring.",
       "This backtest calibrates the options-implied directional model, not full option-strategy P/L.",
       "Router strategy P/L requires exact contract selection and execution prices; it must not be inferred from BTC spot return alone."
-    ]
+    ],
+    "candidate_guard": {
+      "version": "1.0",
+      "accepted": false,
+      "rejection_reasons": [
+        "NON_POSITIVE_SIGNED_FORWARD_RETURN"
+      ],
+      "rules": {
+        "minimum_active_signals": 3,
+        "minimum_hit_rate": 0.5,
+        "minimum_avg_signed_forward_return_pct": ">0",
+        "minimum_objective": ">0"
+      },
+      "note": "This guard only controls whether an exploratory candidate is surfaced. It never auto-applies production weights."
+    },
+    "exploratory_candidate_raw": {
+      "weights": {
+        "skew_level": 0.1,
+        "skew_change": 0.2,
+        "options_taker_flow": 0.5,
+        "oi_change_mix": 0.2
+      },
+      "moderate_threshold": 20,
+      "metrics": {
+        "labeled_samples": 17,
+        "material_outcomes": 13,
+        "active_signals": 7,
+        "hit_rate": 0.5714,
+        "avg_signed_forward_return_pct": -0.026,
+        "score_return_correlation": 0.0228,
+        "signal_coverage": 0.5385,
+        "objective": 0.34224
+      }
+    }
   }
 }

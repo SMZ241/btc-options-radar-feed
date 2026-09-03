@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp_utc": "2026-09-03T22:00:21.276937+00:00",
+    "spot": 82138.45,
+    "perp_mark": 81633.15,
+    "router_decision": "NO_TRADE",
+    "instrument": null,
+    "strategy": null,
+    "executable": false,
+    "direction_sign": null,
+    "proxy_basis": null,
+    "options_outlook_score": 1.15,
+    "options_outlook_confidence": 23.2,
+    "options_outlook_label": "NEUTRAL",
+    "options_edge_state": "WATCH",
+    "futures_gate_score": 13.81,
+    "futures_gate_state": "NO_EDGE",
+    "futures_gate_passed": false,
+    "outcomes": {}
+  }
+]

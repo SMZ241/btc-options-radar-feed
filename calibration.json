@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "timestamp_utc": "2026-09-03T21:56:02.244670+00:00",
+  "timestamp_utc": "2026-09-03T22:00:21.575372+00:00",
   "status": "DATA_COLLECTION",
   "auto_apply": false,
   "promotion_allowed": false,
   "primary_horizon": "24h",
-  "archive_samples": 25,
-  "outlook_history_snapshots_after_bootstrap": 27,
+  "archive_samples": 26,
+  "outlook_history_snapshots_after_bootstrap": 29,
   "baseline_weights": {
     "skew_level": 0.35,
     "skew_change": 0.2,
@@ -20,9 +20,9 @@
     "active_signals": 1,
     "hit_rate": 1.0,
     "avg_signed_forward_return_pct": 1.0315,
-    "score_return_correlation": -0.0615,
+    "score_return_correlation": -0.0578,
     "signal_coverage": 0.0769,
-    "objective": 0.063401
+    "objective": 0.063431
   },
   "horizons": {
     "8h": {
@@ -31,10 +31,10 @@
         "material_outcomes": 18,
         "active_signals": 3,
         "hit_rate": 1.0,
-        "avg_signed_forward_return_pct": 0.9801,
-        "score_return_correlation": 0.3327,
+        "avg_signed_forward_return_pct": 0.9167,
+        "score_return_correlation": 0.3203,
         "signal_coverage": 0.1667,
-        "objective": 0.21207
+        "objective": 0.21044
       },
       "score_buckets": [
         {
@@ -58,7 +58,7 @@
         {
           "bucket": "BULLISH",
           "samples": 2,
-          "avg_forward_return_pct": 1.1554,
+          "avg_forward_return_pct": 1.0603,
           "positive_return_rate": 1.0
         },
         {
@@ -76,9 +76,9 @@
         "active_signals": 1,
         "hit_rate": 1.0,
         "avg_signed_forward_return_pct": 1.0315,
-        "score_return_correlation": -0.0615,
+        "score_return_correlation": -0.0578,
         "signal_coverage": 0.0769,
-        "objective": 0.063401
+        "objective": 0.063431
       },
       "score_buckets": [
         {
@@ -96,7 +96,7 @@
         {
           "bucket": "NEUTRAL",
           "samples": 15,
-          "avg_forward_return_pct": 0.7537,
+          "avg_forward_return_pct": 0.7404,
           "positive_return_rate": 0.4667
         },
         {
@@ -119,7 +119,7 @@
         "material_outcomes": 5,
         "active_signals": 1,
         "hit_rate": 0.0,
-        "avg_signed_forward_return_pct": -4.9007,
+        "avg_signed_forward_return_pct": -4.7034,
         "score_return_correlation": -0.541,
         "signal_coverage": 0.2,
         "objective": 0.007158
@@ -134,13 +134,13 @@
         {
           "bucket": "BEARISH",
           "samples": 1,
-          "avg_forward_return_pct": 4.9007,
+          "avg_forward_return_pct": 4.7034,
           "positive_return_rate": 1.0
         },
         {
           "bucket": "NEUTRAL",
           "samples": 4,
-          "avg_forward_return_pct": 4.2488,
+          "avg_forward_return_pct": 4.0527,
           "positive_return_rate": 1.0
         },
         {
@@ -246,25 +246,7 @@
       ]
     }
   },
-  "exploratory_candidate": {
-    "weights": {
-      "skew_level": 0.1,
-      "skew_change": 0.2,
-      "options_taker_flow": 0.5,
-      "oi_change_mix": 0.2
-    },
-    "moderate_threshold": 20,
-    "metrics": {
-      "labeled_samples": 17,
-      "material_outcomes": 13,
-      "active_signals": 7,
-      "hit_rate": 0.5714,
-      "avg_signed_forward_return_pct": -0.0545,
-      "score_return_correlation": 0.0178,
-      "signal_coverage": 0.5385,
-      "objective": 0.341118
-    }
-  },
+  "exploratory_candidate": null,
   "walk_forward": {
     "train_candidate": null,
     "test_evaluation": null,
@@ -286,5 +268,38 @@
     "Small returns below each horizon noise floor are excluded from directional hit-rate scoring.",
     "This backtest calibrates the options-implied directional model, not full option-strategy P/L.",
     "Router strategy P/L requires exact contract selection and execution prices; it must not be inferred from BTC spot return alone."
-  ]
+  ],
+  "candidate_guard": {
+    "version": "1.0",
+    "accepted": false,
+    "rejection_reasons": [
+      "NON_POSITIVE_SIGNED_FORWARD_RETURN"
+    ],
+    "rules": {
+      "minimum_active_signals": 3,
+      "minimum_hit_rate": 0.5,
+      "minimum_avg_signed_forward_return_pct": ">0",
+      "minimum_objective": ">0"
+    },
+    "note": "This guard only controls whether an exploratory candidate is surfaced. It never auto-applies production weights."
+  },
+  "exploratory_candidate_raw": {
+    "weights": {
+      "skew_level": 0.1,
+      "skew_change": 0.2,
+      "options_taker_flow": 0.5,
+      "oi_change_mix": 0.2
+    },
+    "moderate_threshold": 20,
+    "metrics": {
+      "labeled_samples": 17,
+      "material_outcomes": 13,
+      "active_signals": 7,
+      "hit_rate": 0.5714,
+      "avg_signed_forward_return_pct": -0.026,
+      "score_return_correlation": 0.0228,
+      "signal_coverage": 0.5385,
+      "objective": 0.34224
+    }
+  }
 }
