@@ -1,5 +1,269 @@
 [
   {
+    "timestamp_utc": "2026-09-01T06:12:16.012441+00:00",
+    "score": 10.56,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 36.9,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "UNKNOWN",
+    "expected_move_7d_pct": 5.554,
+    "spot": 79545.71
+  },
+  {
+    "timestamp_utc": "2026-09-01T06:55:11.990544+00:00",
+    "score": -6.78,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 20.7,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.525,
+    "spot": 79343.33
+  },
+  {
+    "timestamp_utc": "2026-09-01T08:31:29.962205+00:00",
+    "score": -34.74,
+    "label": "BEARISH",
+    "direction": "BEARISH",
+    "confidence": 57.6,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.429,
+    "spot": 78448.66
+  },
+  {
+    "timestamp_utc": "2026-09-01T08:56:14.080828+00:00",
+    "score": -16.88,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 46.0,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.4,
+    "spot": 78462.35
+  },
+  {
+    "timestamp_utc": "2026-09-01T09:08:25.062045+00:00",
+    "score": 5.6,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 32.4,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.424,
+    "spot": 78418.6
+  },
+  {
+    "timestamp_utc": "2026-09-01T12:39:06.385714+00:00",
+    "score": 21.15,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 48.7,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.434,
+    "spot": 78343.16
+  },
+  {
+    "timestamp_utc": "2026-09-01T12:59:11.674117+00:00",
+    "score": 24.84,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 51.1,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.422,
+    "spot": 78566.73
+  },
+  {
+    "timestamp_utc": "2026-09-01T16:45:34.780469+00:00",
+    "score": -3.48,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 31.0,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.345,
+    "spot": 77954.79
+  },
+  {
+    "timestamp_utc": "2026-09-01T20:30:58.949210+00:00",
+    "score": 20.46,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 48.3,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.447,
+    "spot": 77914.6
+  },
+  {
+    "timestamp_utc": "2026-09-02T00:39:40.711012+00:00",
+    "score": -30.07,
+    "label": "BEARISH",
+    "direction": "BEARISH",
+    "confidence": 54.5,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.26,
+    "spot": 77677.48
+  },
+  {
+    "timestamp_utc": "2026-09-02T04:33:09.375755+00:00",
+    "score": -0.17,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 22.6,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 5.13,
+    "spot": 77990.22
+  },
+  {
+    "timestamp_utc": "2026-09-02T08:33:16.686480+00:00",
+    "score": 4.93,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 25.7,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.918,
+    "spot": 77639.48
+  },
+  {
+    "timestamp_utc": "2026-09-02T10:16:45.609242+00:00",
+    "score": -13.79,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 37.7,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.951,
+    "spot": 77121.24
+  },
+  {
+    "timestamp_utc": "2026-09-02T12:38:57.201614+00:00",
+    "score": -3.89,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 31.3,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.967,
+    "spot": 77329.95
+  },
+  {
+    "timestamp_utc": "2026-09-02T16:33:24.468067+00:00",
+    "score": 15.67,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 45.2,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.748,
+    "spot": 78018.57
+  },
+  {
+    "timestamp_utc": "2026-09-02T20:32:27.592885+00:00",
+    "score": 4.6,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 31.7,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.592,
+    "spot": 77832.94
+  },
+  {
+    "timestamp_utc": "2026-09-03T00:41:33.238696+00:00",
+    "score": -16.34,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 45.6,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.609,
+    "spot": 77568.67
+  },
+  {
+    "timestamp_utc": "2026-09-03T05:37:08.498009+00:00",
+    "score": 26.13,
+    "label": "BULLISH",
+    "direction": "BULLISH",
+    "confidence": 52.0,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.501,
+    "spot": 77844.61
+  },
+  {
+    "timestamp_utc": "2026-09-03T08:34:09.137251+00:00",
+    "score": 23.92,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 50.6,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 4.337,
+    "spot": 78416.45
+  },
+  {
+    "timestamp_utc": "2026-09-03T12:38:41.036564+00:00",
+    "score": 23.55,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 44.1,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 4.533,
+    "spot": 78800.86
+  },
+  {
+    "timestamp_utc": "2026-09-03T16:32:58.975701+00:00",
+    "score": 48.11,
+    "label": "BULLISH",
+    "direction": "BULLISH",
+    "confidence": 66.3,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.287,
+    "spot": 81412.02
+  },
+  {
+    "timestamp_utc": "2026-09-03T18:17:41.366770+00:00",
+    "score": 25.81,
+    "label": "BULLISH",
+    "direction": "BULLISH",
+    "confidence": 39.3,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.291,
+    "spot": 81778.95
+  },
+  {
+    "timestamp_utc": "2026-09-03T20:31:42.505212+00:00",
+    "score": 36.29,
+    "label": "BULLISH",
+    "direction": "BULLISH",
+    "confidence": 52.3,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.622,
+    "spot": 82117.34
+  },
+  {
+    "timestamp_utc": "2026-09-03T21:46:34.172624+00:00",
+    "score": 24.07,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 42.3,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.491,
+    "spot": 82035.01
+  },
+  {
     "timestamp_utc": "2026-09-03T21:46:34.485131+00:00",
     "score": 24.07,
     "label": "NEUTRAL",
@@ -8,5 +272,26 @@
     "relative_richness": "CALLS_RICH",
     "vol_valuation": "FAIR_VOL",
     "expected_move_7d_pct": 5.491
+  },
+  {
+    "timestamp_utc": "2026-09-03T21:55:53.721797+00:00",
+    "score": 25.61,
+    "label": "BULLISH",
+    "direction": "BULLISH",
+    "confidence": 45.4,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.481,
+    "spot": 82293.2
+  },
+  {
+    "timestamp_utc": "2026-09-03T21:55:53.991246+00:00",
+    "score": 25.61,
+    "label": "BULLISH",
+    "direction": "BULLISH",
+    "confidence": 45.4,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.481
   }
 ]

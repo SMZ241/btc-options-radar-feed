@@ -1,0 +1,290 @@
+{
+  "version": "1.0",
+  "timestamp_utc": "2026-09-03T21:56:02.244670+00:00",
+  "status": "DATA_COLLECTION",
+  "auto_apply": false,
+  "promotion_allowed": false,
+  "primary_horizon": "24h",
+  "archive_samples": 25,
+  "outlook_history_snapshots_after_bootstrap": 27,
+  "baseline_weights": {
+    "skew_level": 0.35,
+    "skew_change": 0.2,
+    "options_taker_flow": 0.35,
+    "oi_change_mix": 0.1
+  },
+  "baseline_moderate_threshold": 25,
+  "baseline_primary": {
+    "labeled_samples": 17,
+    "material_outcomes": 13,
+    "active_signals": 1,
+    "hit_rate": 1.0,
+    "avg_signed_forward_return_pct": 1.0315,
+    "score_return_correlation": -0.0615,
+    "signal_coverage": 0.0769,
+    "objective": 0.063401
+  },
+  "horizons": {
+    "8h": {
+      "baseline": {
+        "labeled_samples": 21,
+        "material_outcomes": 18,
+        "active_signals": 3,
+        "hit_rate": 1.0,
+        "avg_signed_forward_return_pct": 0.9801,
+        "score_return_correlation": 0.3327,
+        "signal_coverage": 0.1667,
+        "objective": 0.21207
+      },
+      "score_buckets": [
+        {
+          "bucket": "BEARISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BEARISH",
+          "samples": 2,
+          "avg_forward_return_pct": -0.3392,
+          "positive_return_rate": 0.0
+        },
+        {
+          "bucket": "NEUTRAL",
+          "samples": 17,
+          "avg_forward_return_pct": 0.2448,
+          "positive_return_rate": 0.4706
+        },
+        {
+          "bucket": "BULLISH",
+          "samples": 2,
+          "avg_forward_return_pct": 1.1554,
+          "positive_return_rate": 1.0
+        },
+        {
+          "bucket": "BULLISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        }
+      ]
+    },
+    "24h": {
+      "baseline": {
+        "labeled_samples": 17,
+        "material_outcomes": 13,
+        "active_signals": 1,
+        "hit_rate": 1.0,
+        "avg_signed_forward_return_pct": 1.0315,
+        "score_return_correlation": -0.0615,
+        "signal_coverage": 0.0769,
+        "objective": 0.063401
+      },
+      "score_buckets": [
+        {
+          "bucket": "BEARISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BEARISH",
+          "samples": 2,
+          "avg_forward_return_pct": -0.5858,
+          "positive_return_rate": 0.0
+        },
+        {
+          "bucket": "NEUTRAL",
+          "samples": 15,
+          "avg_forward_return_pct": 0.7537,
+          "positive_return_rate": 0.4667
+        },
+        {
+          "bucket": "BULLISH",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BULLISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        }
+      ]
+    },
+    "3d": {
+      "baseline": {
+        "labeled_samples": 5,
+        "material_outcomes": 5,
+        "active_signals": 1,
+        "hit_rate": 0.0,
+        "avg_signed_forward_return_pct": -4.9007,
+        "score_return_correlation": -0.541,
+        "signal_coverage": 0.2,
+        "objective": 0.007158
+      },
+      "score_buckets": [
+        {
+          "bucket": "BEARISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BEARISH",
+          "samples": 1,
+          "avg_forward_return_pct": 4.9007,
+          "positive_return_rate": 1.0
+        },
+        {
+          "bucket": "NEUTRAL",
+          "samples": 4,
+          "avg_forward_return_pct": 4.2488,
+          "positive_return_rate": 1.0
+        },
+        {
+          "bucket": "BULLISH",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BULLISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        }
+      ]
+    },
+    "7d": {
+      "baseline": {
+        "labeled_samples": 0,
+        "material_outcomes": 0,
+        "active_signals": 0,
+        "hit_rate": null,
+        "avg_signed_forward_return_pct": null,
+        "score_return_correlation": null,
+        "signal_coverage": 0.0,
+        "objective": -999.0
+      },
+      "score_buckets": [
+        {
+          "bucket": "BEARISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BEARISH",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "NEUTRAL",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BULLISH",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BULLISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        }
+      ]
+    },
+    "30d": {
+      "baseline": {
+        "labeled_samples": 0,
+        "material_outcomes": 0,
+        "active_signals": 0,
+        "hit_rate": null,
+        "avg_signed_forward_return_pct": null,
+        "score_return_correlation": null,
+        "signal_coverage": 0.0,
+        "objective": -999.0
+      },
+      "score_buckets": [
+        {
+          "bucket": "BEARISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BEARISH",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "NEUTRAL",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BULLISH",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        },
+        {
+          "bucket": "BULLISH_STRONG",
+          "samples": 0,
+          "avg_forward_return_pct": null,
+          "positive_return_rate": null
+        }
+      ]
+    }
+  },
+  "exploratory_candidate": {
+    "weights": {
+      "skew_level": 0.1,
+      "skew_change": 0.2,
+      "options_taker_flow": 0.5,
+      "oi_change_mix": 0.2
+    },
+    "moderate_threshold": 20,
+    "metrics": {
+      "labeled_samples": 17,
+      "material_outcomes": 13,
+      "active_signals": 7,
+      "hit_rate": 0.5714,
+      "avg_signed_forward_return_pct": -0.0545,
+      "score_return_correlation": 0.0178,
+      "signal_coverage": 0.5385,
+      "objective": 0.341118
+    }
+  },
+  "walk_forward": {
+    "train_candidate": null,
+    "test_evaluation": null,
+    "out_of_sample_rule": null
+  },
+  "governance": {
+    "minimum_labeled_samples_for_preliminary": 20,
+    "minimum_labeled_samples_for_review": 60,
+    "minimum_active_signals_for_review": 15,
+    "minimum_out_of_sample_hit_rate_improvement": 0.05,
+    "minimum_out_of_sample_candidate_signals": 10,
+    "automatic_weight_changes": false,
+    "note": "Candidate weights are exploratory until review eligibility and out-of-sample promotion rules pass. Live production weights remain frozen."
+  },
+  "methodology_notes": [
+    "Historical pure-options scores are reconstructed from archived radar_v2 reports using the current options-only component definitions.",
+    "Forward outcomes are matched by actual UTC timestamps, not snapshot offsets, so manual out-of-schedule runs do not distort the horizon.",
+    "The primary calibration horizon is 24h; 8h/3d/7d/30d are reported separately.",
+    "Small returns below each horizon noise floor are excluded from directional hit-rate scoring.",
+    "This backtest calibrates the options-implied directional model, not full option-strategy P/L.",
+    "Router strategy P/L requires exact contract selection and execution prices; it must not be inferred from BTC spot return alone."
+  ]
+}
