@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp_utc": "2026-09-03T21:46:34.485131+00:00",
+    "score": 24.07,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 42.3,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 5.491
+  }
+]
