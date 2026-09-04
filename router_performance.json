@@ -1,24 +1,25 @@
 {
   "version": "1.0",
-  "timestamp_utc": "2026-09-04T12:38:19.263632+00:00",
-  "history_snapshots": 5,
+  "timestamp_utc": "2026-09-04T16:32:09.596832+00:00",
+  "history_snapshots": 6,
   "decision_counts": {
-    "NO_TRADE": 5
+    "NO_TRADE": 5,
+    "OPTION_LONG_VOL": 1
   },
   "horizons": {
     "8h": {
       "mature_directional_routes": 0,
       "directional_proxy_hit_rate": null,
       "avg_directional_proxy_return_pct": null,
-      "mature_no_trade_decisions": 3,
-      "no_trade_avg_abs_btc_move_pct": 1.0485
+      "mature_no_trade_decisions": 4,
+      "no_trade_avg_abs_btc_move_pct": 1.2152
     },
     "24h": {
       "mature_directional_routes": 0,
       "directional_proxy_hit_rate": null,
       "avg_directional_proxy_return_pct": null,
-      "mature_no_trade_decisions": 0,
-      "no_trade_avg_abs_btc_move_pct": null
+      "mature_no_trade_decisions": 1,
+      "no_trade_avg_abs_btc_move_pct": 2.5389
     },
     "3d": {
       "mature_directional_routes": 0,
