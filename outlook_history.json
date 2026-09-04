@@ -335,5 +335,26 @@
     "relative_richness": "CALLS_RICH",
     "vol_valuation": "FAIR_VOL",
     "expected_move_7d_pct": 5.283
+  },
+  {
+    "timestamp_utc": "2026-09-04T04:32:03.002784+00:00",
+    "score": 18.48,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 34.5,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 4.911,
+    "spot": 81698.97
+  },
+  {
+    "timestamp_utc": "2026-09-04T04:32:03.278554+00:00",
+    "score": 18.48,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 34.5,
+    "relative_richness": "CALLS_RICH",
+    "vol_valuation": "FAIR_VOL",
+    "expected_move_7d_pct": 4.911
   }
 ]

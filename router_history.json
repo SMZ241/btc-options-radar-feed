@@ -16,7 +16,16 @@
     "futures_gate_score": 13.81,
     "futures_gate_state": "NO_EDGE",
     "futures_gate_passed": false,
-    "outcomes": {}
+    "outcomes": {
+      "8h": {
+        "future_timestamp_utc": "2026-09-04T04:32:11.990876+00:00",
+        "btc_spot_return_pct": -0.535,
+        "perp_mark_return_pct": -0.5689,
+        "directional_proxy_return_pct": null,
+        "directional_proxy_hit": null,
+        "note": "Directional proxy only. For options routes this is underlying-direction performance, not actual option strategy P/L."
+      }
+    }
   },
   {
     "timestamp_utc": "2026-09-04T00:38:55.220396+00:00",
@@ -33,6 +42,25 @@
     "options_outlook_label": "NEUTRAL",
     "options_edge_state": "WATCH",
     "futures_gate_score": 19.21,
+    "futures_gate_state": "NO_EDGE",
+    "futures_gate_passed": false,
+    "outcomes": {}
+  },
+  {
+    "timestamp_utc": "2026-09-04T04:32:11.990876+00:00",
+    "spot": 81698.97,
+    "perp_mark": 81168.7,
+    "router_decision": "NO_TRADE",
+    "instrument": null,
+    "strategy": null,
+    "executable": false,
+    "direction_sign": null,
+    "proxy_basis": null,
+    "options_outlook_score": 18.48,
+    "options_outlook_confidence": 34.5,
+    "options_outlook_label": "NEUTRAL",
+    "options_edge_state": "WATCH",
+    "futures_gate_score": 14.83,
     "futures_gate_state": "NO_EDGE",
     "futures_gate_passed": false,
     "outcomes": {}
