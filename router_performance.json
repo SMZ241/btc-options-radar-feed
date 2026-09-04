@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "timestamp_utc": "2026-09-03T22:00:21.462999+00:00",
-  "history_snapshots": 1,
+  "timestamp_utc": "2026-09-04T00:38:55.274567+00:00",
+  "history_snapshots": 2,
   "decision_counts": {
-    "NO_TRADE": 1
+    "NO_TRADE": 2
   },
   "horizons": {
     "8h": {
