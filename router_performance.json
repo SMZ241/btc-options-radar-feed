@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "timestamp_utc": "2026-09-04T20:31:20.578248+00:00",
-  "history_snapshots": 7,
+  "timestamp_utc": "2026-09-05T00:40:15.805622+00:00",
+  "history_snapshots": 8,
   "decision_counts": {
     "NO_TRADE": 5,
-    "OPTION_LONG_VOL": 2
+    "OPTION_LONG_VOL": 3
   },
   "horizons": {
     "8h": {
@@ -18,8 +18,8 @@
       "mature_directional_routes": 0,
       "directional_proxy_hit_rate": null,
       "avg_directional_proxy_return_pct": null,
-      "mature_no_trade_decisions": 2,
-      "no_trade_avg_abs_btc_move_pct": 2.2724
+      "mature_no_trade_decisions": 3,
+      "no_trade_avg_abs_btc_move_pct": 2.1809
     },
     "3d": {
       "mature_directional_routes": 0,
