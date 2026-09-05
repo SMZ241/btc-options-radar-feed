@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "timestamp_utc": "2026-09-05T04:31:18.410010+00:00",
+  "timestamp_utc": "2026-09-05T08:31:14.922209+00:00",
   "status": "PRELIMINARY",
   "auto_apply": false,
   "promotion_allowed": false,
   "primary_horizon": "24h",
-  "archive_samples": 34,
-  "outlook_history_snapshots_after_bootstrap": 45,
+  "archive_samples": 35,
+  "outlook_history_snapshots_after_bootstrap": 47,
   "baseline_weights": {
     "skew_level": 0.35,
     "skew_change": 0.2,
@@ -15,19 +15,19 @@
   },
   "baseline_moderate_threshold": 25,
   "baseline_primary": {
-    "labeled_samples": 29,
+    "labeled_samples": 30,
     "material_outcomes": 25,
     "active_signals": 6,
     "hit_rate": 0.3333,
     "avg_signed_forward_return_pct": -0.4325,
-    "score_return_correlation": -0.1824,
+    "score_return_correlation": -0.1776,
     "signal_coverage": 0.24,
-    "objective": 0.1874
+    "objective": 0.187639
   },
   "horizons": {
     "8h": {
       "baseline": {
-        "labeled_samples": 32,
+        "labeled_samples": 33,
         "material_outcomes": 27,
         "active_signals": 5,
         "hit_rate": 0.6,
@@ -51,9 +51,9 @@
         },
         {
           "bucket": "NEUTRAL",
-          "samples": 25,
-          "avg_forward_return_pct": -0.0452,
-          "positive_return_rate": 0.4
+          "samples": 26,
+          "avg_forward_return_pct": -0.0455,
+          "positive_return_rate": 0.3846
         },
         {
           "bucket": "BULLISH",
@@ -71,14 +71,14 @@
     },
     "24h": {
       "baseline": {
-        "labeled_samples": 29,
+        "labeled_samples": 30,
         "material_outcomes": 25,
         "active_signals": 6,
         "hit_rate": 0.3333,
         "avg_signed_forward_return_pct": -0.4325,
-        "score_return_correlation": -0.1824,
+        "score_return_correlation": -0.1776,
         "signal_coverage": 0.24,
-        "objective": 0.1874
+        "objective": 0.187639
       },
       "score_buckets": [
         {
@@ -95,9 +95,9 @@
         },
         {
           "bucket": "NEUTRAL",
-          "samples": 22,
-          "avg_forward_return_pct": 0.2483,
-          "positive_return_rate": 0.4091
+          "samples": 23,
+          "avg_forward_return_pct": 0.2427,
+          "positive_return_rate": 0.4348
         },
         {
           "bucket": "BULLISH",
@@ -115,14 +115,14 @@
     },
     "3d": {
       "baseline": {
-        "labeled_samples": 14,
-        "material_outcomes": 14,
+        "labeled_samples": 15,
+        "material_outcomes": 15,
         "active_signals": 2,
         "hit_rate": 0.0,
         "avg_signed_forward_return_pct": -3.4509,
-        "score_return_correlation": -0.6494,
-        "signal_coverage": 0.1429,
-        "objective": 0.010605
+        "score_return_correlation": -0.6574,
+        "signal_coverage": 0.1333,
+        "objective": 0.010154
       },
       "score_buckets": [
         {
@@ -139,8 +139,8 @@
         },
         {
           "bucket": "NEUTRAL",
-          "samples": 12,
-          "avg_forward_return_pct": 2.9347,
+          "samples": 13,
+          "avg_forward_return_pct": 2.9256,
           "positive_return_rate": 1.0
         },
         {
@@ -255,14 +255,14 @@
     },
     "moderate_threshold": 20,
     "metrics": {
-      "labeled_samples": 29,
+      "labeled_samples": 30,
       "material_outcomes": 25,
       "active_signals": 11,
       "hit_rate": 0.6364,
       "avg_signed_forward_return_pct": 0.8752,
-      "score_return_correlation": 0.1216,
+      "score_return_correlation": 0.1192,
       "signal_coverage": 0.44,
-      "objective": 0.60693
+      "objective": 0.606704
     }
   },
   "walk_forward": {
@@ -308,14 +308,14 @@
     },
     "moderate_threshold": 20,
     "metrics": {
-      "labeled_samples": 29,
+      "labeled_samples": 30,
       "material_outcomes": 25,
       "active_signals": 11,
       "hit_rate": 0.6364,
       "avg_signed_forward_return_pct": 0.8752,
-      "score_return_correlation": 0.1216,
+      "score_return_correlation": 0.1192,
       "signal_coverage": 0.44,
-      "objective": 0.60693
+      "objective": 0.606704
     }
   }
 }

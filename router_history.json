@@ -168,6 +168,14 @@
         "directional_proxy_return_pct": null,
         "directional_proxy_hit": null,
         "note": "Directional proxy only. For options routes this is underlying-direction performance, not actual option strategy P/L."
+      },
+      "24h": {
+        "future_timestamp_utc": "2026-09-05T08:31:14.699241+00:00",
+        "btc_spot_return_pct": 0.0415,
+        "perp_mark_return_pct": 0.016,
+        "directional_proxy_return_pct": null,
+        "directional_proxy_hit": null,
+        "note": "Directional proxy only. For options routes this is underlying-direction performance, not actual option strategy P/L."
       }
     }
   },
@@ -244,7 +252,16 @@
     "futures_gate_score": 0.29,
     "futures_gate_state": "NO_EDGE",
     "futures_gate_passed": false,
-    "outcomes": {}
+    "outcomes": {
+      "8h": {
+        "future_timestamp_utc": "2026-09-05T08:31:14.699241+00:00",
+        "btc_spot_return_pct": -0.0536,
+        "perp_mark_return_pct": -0.0512,
+        "directional_proxy_return_pct": null,
+        "directional_proxy_hit": null,
+        "note": "Directional proxy only. For options routes this is underlying-direction performance, not actual option strategy P/L."
+      }
+    }
   },
   {
     "timestamp_utc": "2026-09-05T04:31:18.199211+00:00",
@@ -261,6 +278,25 @@
     "options_outlook_label": "NEUTRAL",
     "options_edge_state": "WATCH",
     "futures_gate_score": -13.92,
+    "futures_gate_state": "NO_EDGE",
+    "futures_gate_passed": false,
+    "outcomes": {}
+  },
+  {
+    "timestamp_utc": "2026-09-05T08:31:14.699241+00:00",
+    "spot": 80023.86,
+    "perp_mark": 79604.86,
+    "router_decision": "OPTION_LONG_VOL",
+    "instrument": "BTC_OPTIONS",
+    "strategy": "LONG_STRADDLE_OR_STRANGLE",
+    "executable": true,
+    "direction_sign": null,
+    "proxy_basis": null,
+    "options_outlook_score": -1.46,
+    "options_outlook_confidence": 29.7,
+    "options_outlook_label": "NEUTRAL",
+    "options_edge_state": "WATCH",
+    "futures_gate_score": 1.67,
     "futures_gate_state": "NO_EDGE",
     "futures_gate_passed": false,
     "outcomes": {}
