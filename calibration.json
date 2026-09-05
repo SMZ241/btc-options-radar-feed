@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "timestamp_utc": "2026-09-05T08:31:14.922209+00:00",
+  "timestamp_utc": "2026-09-05T12:34:52.237773+00:00",
   "status": "PRELIMINARY",
   "auto_apply": false,
   "promotion_allowed": false,
   "primary_horizon": "24h",
-  "archive_samples": 35,
-  "outlook_history_snapshots_after_bootstrap": 47,
+  "archive_samples": 36,
+  "outlook_history_snapshots_after_bootstrap": 49,
   "baseline_weights": {
     "skew_level": 0.35,
     "skew_change": 0.2,
@@ -15,26 +15,26 @@
   },
   "baseline_moderate_threshold": 25,
   "baseline_primary": {
-    "labeled_samples": 30,
+    "labeled_samples": 31,
     "material_outcomes": 25,
     "active_signals": 6,
     "hit_rate": 0.3333,
     "avg_signed_forward_return_pct": -0.4325,
-    "score_return_correlation": -0.1776,
+    "score_return_correlation": -0.1778,
     "signal_coverage": 0.24,
-    "objective": 0.187639
+    "objective": 0.187633
   },
   "horizons": {
     "8h": {
       "baseline": {
-        "labeled_samples": 33,
+        "labeled_samples": 34,
         "material_outcomes": 27,
         "active_signals": 5,
         "hit_rate": 0.6,
         "avg_signed_forward_return_pct": 0.2391,
-        "score_return_correlation": 0.0957,
+        "score_return_correlation": 0.0949,
         "signal_coverage": 0.1852,
-        "objective": 0.236057
+        "objective": 0.236021
       },
       "score_buckets": [
         {
@@ -51,9 +51,9 @@
         },
         {
           "bucket": "NEUTRAL",
-          "samples": 26,
-          "avg_forward_return_pct": -0.0455,
-          "positive_return_rate": 0.3846
+          "samples": 27,
+          "avg_forward_return_pct": -0.0384,
+          "positive_return_rate": 0.4074
         },
         {
           "bucket": "BULLISH",
@@ -71,14 +71,14 @@
     },
     "24h": {
       "baseline": {
-        "labeled_samples": 30,
+        "labeled_samples": 31,
         "material_outcomes": 25,
         "active_signals": 6,
         "hit_rate": 0.3333,
         "avg_signed_forward_return_pct": -0.4325,
-        "score_return_correlation": -0.1776,
+        "score_return_correlation": -0.1778,
         "signal_coverage": 0.24,
-        "objective": 0.187639
+        "objective": 0.187633
       },
       "score_buckets": [
         {
@@ -95,9 +95,9 @@
         },
         {
           "bucket": "NEUTRAL",
-          "samples": 23,
-          "avg_forward_return_pct": 0.2427,
-          "positive_return_rate": 0.4348
+          "samples": 24,
+          "avg_forward_return_pct": 0.2366,
+          "positive_return_rate": 0.4583
         },
         {
           "bucket": "BULLISH",
@@ -115,14 +115,14 @@
     },
     "3d": {
       "baseline": {
-        "labeled_samples": 15,
-        "material_outcomes": 15,
+        "labeled_samples": 16,
+        "material_outcomes": 16,
         "active_signals": 2,
         "hit_rate": 0.0,
         "avg_signed_forward_return_pct": -3.4509,
-        "score_return_correlation": -0.6574,
-        "signal_coverage": 0.1333,
-        "objective": 0.010154
+        "score_return_correlation": -0.6523,
+        "signal_coverage": 0.125,
+        "objective": 0.009962
       },
       "score_buckets": [
         {
@@ -139,8 +139,8 @@
         },
         {
           "bucket": "NEUTRAL",
-          "samples": 13,
-          "avg_forward_return_pct": 2.9256,
+          "samples": 14,
+          "avg_forward_return_pct": 2.9323,
           "positive_return_rate": 1.0
         },
         {
@@ -255,14 +255,14 @@
     },
     "moderate_threshold": 20,
     "metrics": {
-      "labeled_samples": 30,
+      "labeled_samples": 31,
       "material_outcomes": 25,
       "active_signals": 11,
       "hit_rate": 0.6364,
       "avg_signed_forward_return_pct": 0.8752,
-      "score_return_correlation": 0.1192,
+      "score_return_correlation": 0.1181,
       "signal_coverage": 0.44,
-      "objective": 0.606704
+      "objective": 0.606605
     }
   },
   "walk_forward": {
@@ -308,14 +308,14 @@
     },
     "moderate_threshold": 20,
     "metrics": {
-      "labeled_samples": 30,
+      "labeled_samples": 31,
       "material_outcomes": 25,
       "active_signals": 11,
       "hit_rate": 0.6364,
       "avg_signed_forward_return_pct": 0.8752,
-      "score_return_correlation": 0.1192,
+      "score_return_correlation": 0.1181,
       "signal_coverage": 0.44,
-      "objective": 0.606704
+      "objective": 0.606605
     }
   }
 }

@@ -503,5 +503,26 @@
     "relative_richness": "BALANCED",
     "vol_valuation": "CHEAP_VOL",
     "expected_move_7d_pct": 3.85
+  },
+  {
+    "timestamp_utc": "2026-09-05T12:34:46.057854+00:00",
+    "score": 0.99,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 35.6,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 3.796,
+    "spot": 80076.66
+  },
+  {
+    "timestamp_utc": "2026-09-05T12:34:46.346469+00:00",
+    "score": 0.99,
+    "label": "NEUTRAL",
+    "direction": "NEUTRAL",
+    "confidence": 35.6,
+    "relative_richness": "BALANCED",
+    "vol_valuation": "CHEAP_VOL",
+    "expected_move_7d_pct": 3.796
   }
 ]
